@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
 
       <Link
-        to="/profile"
+        to="/siswa/Profile"
         className="border p-2 rounded-md hover:shadow transition-shadow"
       >
         <FaUser className="text-green-600" />

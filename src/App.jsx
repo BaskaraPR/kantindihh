@@ -4,6 +4,8 @@ import LandingPage from "./pages/LandingPage";
 import MenuPage from "./pages/Siswa/Menu";
 import Histori from "./pages/Siswa/Histori";
 import Layout from "./components/Layout";
+import Pesanan from "./pages/Siswa/Pesanan";
+import Profile from "./pages/Siswa/Profile";
 import "./App.css";
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
           <Route path="/siswa/dashboard" element={<Dashboard />} />
           <Route path="/siswa/Menu" element={<MenuPage />} />
           <Route path="/siswa/Histori" element={<Histori />} />
+          <Route path="/siswa/Pesanan" element={<Pesanan />} />
+          <Route path="/siswa/Profile" element={<Profile />} />
         </Route>
       </Routes>
     </Router>
