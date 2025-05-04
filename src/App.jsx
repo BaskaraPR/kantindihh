@@ -6,13 +6,14 @@ import Histori from "./pages/Siswa/Histori";
 import Layout from "./components/Layout";
 import Pesanan from "./pages/Siswa/Pesanan";
 import Profile from "./pages/Siswa/Profile";
-import "./App.css";
+import Login from "./pages/Auth";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
         <Route element={<Layout />}>
           <Route path="/siswa/dashboard" element={<Dashboard />} />
           <Route path="/siswa/Menu" element={<MenuPage />} />

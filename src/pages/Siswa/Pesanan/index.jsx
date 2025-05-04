@@ -29,7 +29,6 @@ function Pesanan() {
   ];
   return (
     <div>
-      <h1>Pesanan</h1>
       <div>
         <OrderTable orderData={dummyorderdata} />
       </div>

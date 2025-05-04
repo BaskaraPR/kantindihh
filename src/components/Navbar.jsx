@@ -12,7 +12,11 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center px-6 py-4 shadow bg-white">
-      <div className="text-2xl font-bold text-gray-900">KantinKu</div>
+      <div className="text-2xl font-bold text-gray-900">
+        <Link to="Siswa/dashboard" className="text-inherit no-underline">
+          KantinKu
+        </Link>
+      </div>
       <div className="bg-gray-50 px-2 py-1 rounded-full flex gap-4">
         {navItems.map((item) => {
           const isActive = location.pathname === item.path;

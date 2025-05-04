@@ -5,27 +5,22 @@ function Histori() {
     {
       id: 1,
       tanggal: "12-12-12",
-      total: 20.0,
+      total: 20000,
     },
     {
       id: 2,
       tanggal: "2-2-2",
-      total: 26.0,
+      total: 26000,
     },
     {
       id: 3,
       tanggal: "1-12-12",
-      total: 69.0,
+      total: 69000,
     },
   ];
   return (
     <div>
-      <h1>Histori Anda</h1>
-      <div>
-        {TableData.map((data) => (
-          <HistoryTable no={data.id} date={data.tanggal} total={data.total} />
-        ))}
-      </div>
+      <HistoryTable historyData={TableData} />
     </div>
   );
 }

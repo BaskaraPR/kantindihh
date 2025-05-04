@@ -40,7 +40,7 @@ function LandingPage() {
                 dengan penuh energi!
               </p>
               <div>
-                <Link to="">
+                <Link to="/login">
                   <a className="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors">
                     <ShoppingCart className="w-5 h-5" />
                     <span>Pesan Sekarang</span>
